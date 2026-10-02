@@ -1,36 +1,33 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Amjad M. Chaudhry | Strategic Member, Aura Platform LLC</title>
-<meta name="description" content="Amjad M. Chaudhry, Strategic Member of Aura Platform LLC: financial judgement, introductions to small businesses, banks and institutions, and building the teams that serve them.">
-<meta name="author" content="Amjad M. Chaudhry">
-<link rel="canonical" href="https://amjad.auraplatform.org/">
-<meta property="og:type" content="profile"><meta property="og:title" content="Amjad M. Chaudhry | Strategic Member, Aura Platform LLC"><meta property="og:description" content="Amjad M. Chaudhry, Strategic Member of Aura Platform LLC: financial judgement, introductions to small businesses, banks and institutions, and building the teams that serve them."><meta property="og:url" content="https://amjad.auraplatform.org/">
-<meta property="og:image" content="https://amjad.auraplatform.org/assets/social/og-default.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://amjad.auraplatform.org/assets/social/og-default.png">
-<link rel="icon" href="favicon.ico"><link rel="manifest" href="site.webmanifest">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"><meta name="script-fonts" content="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&family=Noto+Serif+Devanagari&display=swap">
-<link rel="stylesheet" href="record.css"><link rel="stylesheet" href="member.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfilePage", "@id": "https://amjad.auraplatform.org/#profilepage", "url": "https://amjad.auraplatform.org/", "mainEntity": {"@type": "Person", "@id": "https://amjad.auraplatform.org/#person", "name": "Amjad M. Chaudhry", "jobTitle": "Strategic Member", "description": "Michigan banker in business banking, commercial lending and branch leadership; Strategic Member of Aura Platform LLC.", "address": {"@type": "PostalAddress", "addressRegion": "MI", "addressCountry": "US"}, "worksFor": {"@type": "Organization", "@id": "https://company.auraplatform.org/#organization", "name": "Aura Platform LLC", "url": "https://company.auraplatform.org/"}, "sameAs": ["https://www.linkedin.com/in/amjad-mchaudhry-1b90a844"], "knowsLanguage": ["en", "pa", "ur", "hi"], "knowsAbout": ["Business banking", "Commercial lending", "Credit and risk", "Team leadership", "Small business"]}}</script>
-</head>
-<body class="record founder member">
-<a class="skip-link" href="#main">Skip to content</a>
-<header class="rh fh-head" role="banner">
-  <div class="wrap">
-    <a class="rh-brand" href="#presence" aria-label="Amjad M. Chaudhry"><img src="assets/images/leadership/amjad.png" alt="" width="28" height="28">Amjad M. Chaudhry</a>
-    <nav class="rh-nav" aria-label="Primary">
-      <a href="#with-aura">At Aura Platform</a><a href="#banking">Banking</a><a href="https://company.auraplatform.org" rel="noopener">Aura Platform LLC ↗</a>
-    </nav>
-    <a class="rh-cta" href="#conversation">Write to me</a>
-    <button class="rh-menu" type="button" aria-expanded="false" aria-controls="rh-panel"><span></span><b class="sr-only">Menu</b></button>
-  </div>
-  <nav class="rh-panel" id="rh-panel" aria-label="Mobile primary">
-    <a href="#with-aura">At Aura Platform</a><a href="#banking">Banking</a><a href="#roots">Economics and languages</a><a href="https://company.auraplatform.org" rel="noopener">Aura Platform LLC ↗</a><a href="#conversation">Write to me</a>
-  </nav>
-</header>
-<main id="main">
-<section class="hero" id="presence"><div class="wrap split">
+# Amjad M. Chaudhry, Strategic Member: his room in the company's house (The Record).
+# Rules from the founder (2 Oct 2026): no timeline, his own voice, no bank named
+# (outside-activity care with his employer), and his role at Aura Platform =
+# financial judgement, small-business introductions, institutions and banks,
+# building and leading teams. No personal email or address.
+import json, os
+
+ROOT = os.path.dirname(os.path.abspath(__file__))
+FONTS = ('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400'
+         '&family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap')
+SCRIPTS = 'https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&family=Noto+Serif+Devanagari&display=swap'
+CO = 'https://company.auraplatform.org'
+URL = 'https://amjad.auraplatform.org/'
+TITLE = 'Amjad M. Chaudhry | Strategic Member, Aura Platform LLC'
+DESC = ('Amjad M. Chaudhry, Strategic Member of Aura Platform LLC: financial judgement, introductions to small '
+        'businesses, banks and institutions, and building the teams that serve them.')
+
+LD = {"@context": "https://schema.org", "@type": "ProfilePage", "@id": URL + "#profilepage", "url": URL,
+      "mainEntity": {"@type": "Person", "@id": URL + "#person", "name": "Amjad M. Chaudhry", "jobTitle": "Strategic Member",
+                     "description": "Michigan banker in business banking, commercial lending and branch leadership; Strategic Member of Aura Platform LLC.",
+                     "address": {"@type": "PostalAddress", "addressRegion": "MI", "addressCountry": "US"},
+                     "worksFor": {"@type": "Organization", "@id": CO + "/#organization", "name": "Aura Platform LLC", "url": CO + "/"},
+                     "sameAs": ["https://www.linkedin.com/in/amjad-mchaudhry-1b90a844"],
+                     "knowsLanguage": ["en", "pa", "ur", "hi"],
+                     "knowsAbout": ["Business banking", "Commercial lending", "Credit and risk", "Team leadership", "Small business"]}}
+
+def word(text, lang, d, gloss):
+    return f'<span class="word" lang="{lang}" dir="{d}"><b>{text}</b><small lang="en" dir="ltr">{gloss}</small></span>'
+
+body = f'''<section class="hero" id="presence"><div class="wrap split">
   <div>
     <div class="ey">Strategic Member · Aura Platform LLC</div>
     <h1 class="h1">Banking, business relationships and <em class="tl">financial judgement.</em></h1>
@@ -53,12 +50,12 @@
     <div class="cc">
       <div class="mini-stage s-orc"><span class="path"><i class="d">Referred</i><i class="d">Introduced</i><i class="n">Customer</i></span></div>
       <h3>Small-business introductions.</h3>
-      <p>Through the networks banking builds, attorneys, accountants and community leaders, I open doors to the small businesses <a href="https://company.auraplatform.org/orchestrate">Orchestrate</a> serves.</p>
+      <p>Through the networks banking builds, attorneys, accountants and community leaders, I open doors to the small businesses <a href="{CO}/orchestrate">Orchestrate</a> serves.</p>
     </div>
     <div class="cc">
       <div class="mini-stage s-aura"><span class="bubble">Our branch, on the record</span><span class="bubble me">Official</span></div>
       <h3>Institutions and banks.</h3>
-      <p>I approach banks, credit unions and community institutions, to answer on <a href="https://company.auraplatform.org/aura">Aura</a> in their own name and to partner with us.</p>
+      <p>I approach banks, credit unions and community institutions, to answer on <a href="{CO}/aura">Aura</a> in their own name and to partner with us.</p>
     </div>
     <div class="cc">
       <div class="mini-stage s-co lead"><span class="path"><i class="d">Hire</i><i class="d">Coach</i><i class="n">Lead</i></span></div>
@@ -90,7 +87,7 @@
     <h2 class="h2">Economics, <em class="tl">in two countries.</em></h2>
     <p class="lede">I studied business economics in Pakistan and again at Eastern Michigan University. I work in English, Punjabi, Urdu and Hindi, which matters in the communities and businesses I serve.</p>
   </div>
-  <div class="stage s-co words four" data-name="Languages I work in" data-needs-scripts><span class="word" lang="en" dir="ltr"><b>English</b><small lang="en" dir="ltr">English</small></span><span class="word" lang="pa-Arab" dir="rtl"><b>پنجابی</b><small lang="en" dir="ltr">Punjabi</small></span><span class="word" lang="ur" dir="rtl"><b>اردو</b><small lang="en" dir="ltr">Urdu</small></span><span class="word" lang="hi" dir="ltr"><b>हिन्दी</b><small lang="en" dir="ltr">Hindi</small></span></div>
+  <div class="stage s-co words four" data-name="Languages I work in" data-needs-scripts>{word('English', 'en', 'ltr', 'English')}{word('پنجابی', 'pa-Arab', 'rtl', 'Punjabi')}{word('اردو', 'ur', 'rtl', 'Urdu')}{word('हिन्दी', 'hi', 'ltr', 'Hindi')}</div>
 </div></section>
 
 <section class="hero convo2" id="conversation"><div class="wrap split" data-convo data-mailto="amjad@auraplatform.org" data-salute="Amjad">
@@ -125,16 +122,54 @@
       <div class="attr" data-status><i></i><span>Sent from your own email. The note stays yours.</span></div>
     </form>
   </div>
-</div></section>
+</div></section>'''
+
+html = f'''<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{TITLE}</title>
+<meta name="description" content="{DESC}">
+<meta name="author" content="Amjad M. Chaudhry">
+<link rel="canonical" href="{URL}">
+<meta property="og:type" content="profile"><meta property="og:title" content="{TITLE}"><meta property="og:description" content="{DESC}"><meta property="og:url" content="{URL}">
+<meta property="og:image" content="{URL}assets/social/og-default.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{URL}assets/social/og-default.png">
+<link rel="icon" href="favicon.ico"><link rel="manifest" href="site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="{FONTS}"><meta name="script-fonts" content="{SCRIPTS}">
+<link rel="stylesheet" href="record.css"><link rel="stylesheet" href="member.css">
+<script type="application/ld+json">{json.dumps(LD, ensure_ascii=False)}</script>
+</head>
+<body class="record founder member">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="rh fh-head" role="banner">
+  <div class="wrap">
+    <a class="rh-brand" href="#presence" aria-label="Amjad M. Chaudhry"><img src="assets/images/leadership/amjad.png" alt="" width="28" height="28">Amjad M. Chaudhry</a>
+    <nav class="rh-nav" aria-label="Primary">
+      <a href="#with-aura">At Aura Platform</a><a href="#banking">Banking</a><a href="{CO}" rel="noopener">Aura Platform LLC ↗</a>
+    </nav>
+    <a class="rh-cta" href="#conversation">Write to me</a>
+    <button class="rh-menu" type="button" aria-expanded="false" aria-controls="rh-panel"><span></span><b class="sr-only">Menu</b></button>
+  </div>
+  <nav class="rh-panel" id="rh-panel" aria-label="Mobile primary">
+    <a href="#with-aura">At Aura Platform</a><a href="#banking">Banking</a><a href="#roots">Economics and languages</a><a href="{CO}" rel="noopener">Aura Platform LLC ↗</a><a href="#conversation">Write to me</a>
+  </nav>
+</header>
+<main id="main">
+{body}
 </main>
 <footer class="founder-footer" role="contentinfo">
   <div class="ff-cols">
     <nav aria-label="This page"><b>This page</b><a href="#with-aura">At Aura Platform</a><a href="#banking">Banking</a><a href="#roots">Economics and languages</a><a href="#conversation">Write to me</a></nav>
-    <nav aria-label="Products"><b>Products</b><a href="https://company.auraplatform.org/orchestrate" rel="noopener">Orchestrate ↗</a><a href="https://company.auraplatform.org/aura" rel="noopener">Aura ↗</a><a href="https://company.auraplatform.org/colophon" rel="noopener">Colophon ↗</a></nav>
-    <nav aria-label="Company"><b>Company</b><a href="https://company.auraplatform.org" rel="noopener">Aura Platform LLC ↗</a><a href="https://company.auraplatform.org/films" rel="noopener">Films ↗</a><a href="https://company.auraplatform.org/get" rel="noopener">Get the apps ↗</a></nav>
+    <nav aria-label="Products"><b>Products</b><a href="{CO}/orchestrate" rel="noopener">Orchestrate ↗</a><a href="{CO}/aura" rel="noopener">Aura ↗</a><a href="{CO}/colophon" rel="noopener">Colophon ↗</a></nav>
+    <nav aria-label="Company"><b>Company</b><a href="{CO}" rel="noopener">Aura Platform LLC ↗</a><a href="{CO}/films" rel="noopener">Films ↗</a><a href="{CO}/get" rel="noopener">Get the apps ↗</a></nav>
   </div>
   <small>© 2026 Amjad M. Chaudhry</small>
 </footer>
 <script src="record.js" defer></script>
 </body>
 </html>
+'''
+with open(os.path.join(ROOT, 'index.html'), 'w', encoding='utf-8', newline='\n') as f:
+    f.write(html)
+print('page written')
